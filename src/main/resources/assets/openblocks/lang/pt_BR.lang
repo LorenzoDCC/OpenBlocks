@@ -54,16 +54,16 @@ openblocks.gui.restore_inv.title=Backup do inventário
 openblocks.gui.restore_inv.content=Herrar é umano. Mas com o comando §L/ob_inventory§R você pode consertar alguns "herros". Esse comando pode ser usado para recuperar o inventário. Um backup é criado quando:\n - jogador morre\n - túmulo faz spawn \n - jogador usa o comando §L/ob_inventory store§R\n\nPara recuperar o inventário você precisa do nome de backup. Vá à pasta abaixo ou à pasta de saves no servidor e procure por arquivos de nome §Linventory-*.dat§R. Então recupere o inventário com §L/ob_inventory restore <jogador> <id>§R - onde <id> é o nome do arquivo inteiro ou apenas a parte do meio, §Linventory-§R e §L.dat§R. Você pode compeltar usando Tab. Backups são arquivos NBT normais e podem ser abertos com qualquer editor.
 
 openblocks.gui.bkey.title=A Infame Tecla 'B'
-openblocks.gui.bkey.content=The 'B' key is a very special key in OpenBlocks.\n\nEnabling the 'weAreSeriousPeople' config option in the 'tomfoolery' category of both the client and server config files will give you your very own digestive system.\n\nTry eating some of that tasty clay and press 'B' to digest! ## NEEDS TRANSLATION ##
+openblocks.gui.bkey.content=A tecla 'B' é uma tecla muito especial no OpenBlocks.\n\nAtivando a opção de config 'weAreSeriousPeople' na categoria 'tomfoolery' nos arquivos de config de ambos cliente e servidor irá lhe dar seu próprio sistema digestório.\n\nTente comer um pouco daquela argila gostosa e aperte 'B' para digerir!
 
 openblocks.gui.unstable.title=Encantamento Instável
-openblocks.gui.unstable.content=We've had unconfirmed reports that this enchantment causes any gunpowder you're carrying to become unstable when you're attacked or when you jump off something.\n\nUse at your own risk! ## NEEDS TRANSLATION ##
+openblocks.gui.unstable.content=Nós tivemos relatórios não confirmados que este encantamento deixa qualquer pólvora que você estiver carregando instável quando você é atacado ou quando pula de alguma coisa.\n\nUse ao seu próprio risco!
 
 openblocks.gui.flimflam.title=Encantamento Flim Flam
-openblocks.gui.flimflam.content=Scientists have yet to discover the properties of this enchantment. ## NEEDS TRANSLATION ##
+openblocks.gui.flimflam.content=Cientistas ainda hão de descobrir as propriedades deste encantamento.
 
 openblocks.gui.laststand.title=Encantamento Último Suspiro
-openblocks.gui.laststand.content=The last stand enchantment uses your XP bar as a final protection against dying.\n\nWhen you reach 0.5 hearts, the game will take XP from you whenever you're damaged instead of killing you. The higher number of enchantments you have the cheaper the XP cost will be. ## NEEDS TRANSLATION ##
+openblocks.gui.laststand.content=O encantamento último suspiro usa sua barra de XP como proteção final contra a morte.\n\nQuando você atingir 0.5 coração, o jogo irá tirar XP de você sempre que você for atacado ao invés de te matar. Quanto maior número de encantamentos você tiver, mais barato o custo de XP será.
 
 openblocks.changelog.title=O que há de novo no OpenBlocks %s
 openblocks.misc.url=URL: %s
@@ -96,17 +96,17 @@ openblocks.misc.inverted=Invertido
 
 openblocks.misc.grave_msg=%s (dia: %.1f)
 
-openblocks.misc.cant_restore_player=Can't restore inventory for player %s ## NEEDS TRANSLATION ##
-openblocks.misc.cant_restore_inventory=Can't restore inventory ## NEEDS TRANSLATION ##
-openblocks.misc.cant_store=Can't store player %s inventory ## NEEDS TRANSLATION ##
-openblocks.misc.invalid_sub_inventory=Can't restore sub inventory %s ## NEEDS TRANSLATION ##
-openblocks.misc.stored_inventory=Stored player inventory to %s ## NEEDS TRANSLATION ##
-openblocks.misc.restored_inventory=Restored inventory for player %s ## NEEDS TRANSLATION ##
-openblocks.misc.invalid_index=Invalid index ## NEEDS TRANSLATION ##
-openblocks.misc.empty_slot=No item in slot ## NEEDS TRANSLATION ##
+openblocks.misc.cant_restore_player=Impossível restaurar o inventário para o jogador %s
+openblocks.misc.cant_restore_inventory=Impossível restaurar inventário
+openblocks.misc.cant_store=Impossível salvar o inventário do jogador %s
+openblocks.misc.invalid_sub_inventory=Impossível restaurar sub inventário
+openblocks.misc.stored_inventory=Inventário do jogador salvo para %s
+openblocks.misc.restored_inventory=Inventário restaurado para o jogador %s
+openblocks.misc.invalid_index=Index inválido
+openblocks.misc.empty_slot=Nenhum item no slot
 
-openblocks.misc.pedometer.tracking_reset=Tracking reset ## NEEDS TRANSLATION ##
-openblocks.misc.pedometer.tracking_started=Tracking started ## NEEDS TRANSLATION ##
+openblocks.misc.pedometer.tracking_reset=Contagem reiniciada
+openblocks.misc.pedometer.tracking_started=Contagem iniciada
 
 openblocks.misc.pedometer.start_point=Ponto de partida: %s 
 openblocks.misc.pedometer.speed=Velocidade: %s 
@@ -158,16 +158,16 @@ openblocks.misc.side.south=Lado sul
 openblocks.misc.side.up=Lado de cima
 openblocks.misc.side.down=Lado de baixo
 
-openblocks.misc.command.invalid=Invalid command arguments ## NEEDS TRANSLATION ##
-openblocks.misc.command.no_flim_flam=Invalid flim-flam name ## NEEDS TRANSLATION ##
-openblocks.misc.command.flim_flam_source=Player %s had been successfully flim-flammed with %s ## NEEDS TRANSLATION ##
-openblocks.misc.command.flim_flam_target=Someone doesn't like you. Someone with power ## NEEDS TRANSLATION ##
-openblocks.misc.command.flim_flam_failed=Flim-flamming failed! ## NEEDS TRANSLATION ##
-openblocks.misc.command.luck_added=Luck changed for player %s, current: %d ## NEEDS TRANSLATION ##
-openblocks.misc.command.luck_current=Player %s luck: %d ## NEEDS TRANSLATION ##
+openblocks.misc.command.invalid=Argumentos de comando inválidos
+openblocks.misc.command.no_flim_flam=Nome de flim-flam inválido
+openblocks.misc.command.flim_flam_source=Jogador %s recebeu o flim-flam %s com sucesso
+openblocks.misc.command.flim_flam_target=Alguém não gosta de você. Alguém poderoso.
+openblocks.misc.command.flim_flam_failed=Flim-flam falhou!
+openblocks.misc.command.luck_added=A sorte mudou para o jogador %s, atual: %d
+openblocks.misc.command.luck_current=Sorte do jogador %s: %d
 
-openblocks.misc.hidden_lore=§a§oHold ALT to see history§r ## NEEDS TRANSLATION ##
-openblocks.flim_flammed=Something weird happens around you ## NEEDS TRANSLATION ##
+openblocks.misc.hidden_lore=§a§oSegure ALT para ver o histórico§r 
+openblocks.flim_flammed=Algo estranho acontece ao seu redor.
 
 openblocks.turtle.magnet=Imã
 
