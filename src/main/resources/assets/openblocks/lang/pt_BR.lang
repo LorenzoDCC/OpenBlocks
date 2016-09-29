@@ -172,7 +172,7 @@ openblocks.flim_flammed=Algo estranho acontece ao seu redor.
 openblocks.turtle.magnet=Imã
 
 tile.openblocks.elevator.name=Elevador
-tile.openblocks.elevator.description=Place one elevator directly three or more blocks above another with no blocks inbetween and you'll be able to either 'jump' to move up, or 'crouch' to move down. Elevators can be dyed by clicking on them with dye, however, you can only teleport between elevators of the same color. ## NEEDS TRANSLATION ##
+tile.openblocks.elevator.description=Coloque um elevador diretamente três blocos ou mais acima de outro sem blocos no caminho e você poderá "pular" para subir ou "agachar####" para descer. Elevadores podem ser coloridos clicando neles com corante, contudo, você só pode teletransportar entre elevadores da mesma cor.
 
 tile.openblocks.elevator_rotating.name=Elevador Rotatório
 
@@ -250,10 +250,10 @@ tile.openblocks.donationStation.name=Estação de Doação
 tile.openblocks.donationStation.description=Love a block or item and want to show the mod developer some appreciation? Drop it into the donation station and if we know the authors donation page we'll give you a link. ## NEEDS TRANSLATION ##
 
 tile.openblocks.blockPlacer.name=Colocador de Blocos
-tile.openblocks.blockPlacer.description=When given a redstone pulse the block placer will place an item in the direction it's facing. ## NEEDS TRANSLATION ##
+tile.openblocks.blockPlacer.description=Quando acionado com um pulso de redstone, o colocador irá colocar um item diretamente à sua frente.
 
 tile.openblocks.blockbreaker.name=Quebrador de Blocos
-tile.openblocks.blockbreaker.description=When given a redstone pulse the block breaker will break the block it's facing. ## NEEDS TRANSLATION ##
+tile.openblocks.blockbreaker.description=Quando acionado com um pulso de redstone, o quebrador irá quebrar o bloco diretemente à sua frente.
 
 tile.openblocks.projector.name=Projetor de Mapa de Altura
 tile.openblocks.projector.description=A vista daqui de cima é incrível! Este Projetor irá projetar (dãã) o Mapa de Altura inserido. Preencha um Mapa de Altura utilizando um Cartógrafo e andando com ele por aí.
@@ -315,22 +315,22 @@ item.openblocks.luggage.name=Bagagem
 item.openblocks.luggage.description=Luggage is your new friend. He'll follow you around anywhere you go collecting any items he finds on the floor. Nom nom nom!\nTo dismantle him just shift-click on him and he'll turn into an item that you can carry around.\nIf he ever gets struck by lightning he'll be able to carry even more items! ## NEEDS TRANSLATION ##
 
 item.openblocks.sonicglasses.name=Óculos Sônicos
-item.openblocks.sonicglasses.description=Introducing the fantabulous new Sonic Glasses!\nThis new and exciting technology from OpenMods Inc allow you see what you hear! ## NEEDS TRANSLATION ##
+item.openblocks.sonicglasses.description=Introduzindo os novos fantabulosos Óculos Sônicos!\nEssa excitante nova tecnologia da OpenMods Ltda. lhe permite ver o que você escuta!
 
 item.openblocks.squeegee.name=Rodinho
-item.openblocks.squeegee.description=The squeegee removes paint from any painted blocks. Just click on the side of the block you want to remove the paint from, or alternative shift-click the block to remove paint from all sides! ## NEEDS TRANSLATION ##
+item.openblocks.squeegee.description=O rodinho remove a tinta de qualquer bloco pintado. Apenas clique no lado do bloco que você deseja remover a tinta, ou então clique direito no bloco para remover de todos os lados!
 
 item.openblocks.paintbrush.name=Pincel
-item.openblocks.paintbrush.description=Paint brushes let you paint blocks in whatever color you like!\n\nDab your paint brush in a Paint Can made in the Paint Mixer then click on a block to paint it.\n\nCanvas blocks are perfect for painting, but you can also paint quite a few vanilla blocks and even some blocks from other mods. You can also place stencils on blocks and then paint over the stencil! ## NEEDS TRANSLATION ##
+item.openblocks.paintbrush.description=Pincéis te permitem pintar blocos de qualquer cor que você quiser!\n\nMergulhe seu pincel em uma Lata de Tinta feita em um Misturador de Tinta e então clique em um bloco para pintá-lo.\n\nBlocos de Tela são perfeitos para pintura, mas você também pode pintar vários blocos vanilla e até mesmo alguns blocos de outros mods. Você também pode colocar estênceis nos blocos e pintar eles sobre os estênceis!
 
 item.openblocks.unprepared_stencil.name=Estêncil Despreparado
-item.openblocks.unprepared_stencil.description=Stencils can be placed onto blocks and then painted over using paint brushes!\n\nYou can paint a block using multiple stencils and you can click on them with an empty hand to rotate them.\n\nPlace an Unprepared Stencil in a Drawing table to create different patterns. ## NEEDS TRANSLATION ##
+item.openblocks.unprepared_stencil.description=Estênceis podem ser colcoados em plocos e então pintados sobre usando pincéis!\n\nVocê pode pintar um bloco usando vários estênceis e você pode clicar neles com uma mão vazia para girá-los.\n\nColoque um Estêncil Despreparado em uma Mesa de Desenho para criar diferentes padrões.
 
 item.openblocks.crane_backpack.name=Mochila de Guindaste
 item.openblocks.crane_backpack.description=In Minecraft world "magnet" is ancient word for "how do this works?".\n\nThis particular piece of very equipment allows you to pick and carry mobs, players, items and blocks. Can be controlled with magnet control. ## NEEDS TRANSLATION ##
 
 item.openblocks.crane_control.name=Controle do Guindaste
-item.openblocks.crane_control.description=This hi-tech wireless remote is used for controlling magnet backpacks.\n\nRight click to raise, Sneak + right click to lower, left click to pick/release.\nBlinking light signals something is under magnet. ## NEEDS TRANSLATION ##
+item.openblocks.crane_control.description=Esse controle remoto sem fios de alta tecnlogia é usado para controlar mochilas magnéticas.\n\nClique direito para levantar, Shift + Clique direito para abaixar, clique esquerdo para carregar/soltar.\nLuzes piscantes significam que algo está debaixo do ímã.
 
 item.openblocks.wrench.name=Grande Barra de Metal
 item.openblocks.wrench.description=Essa é uma ferramenta extremamente sofisticada usada para realizar transformações de objetos com simetria octaédrica.\n\n\nOu só um pedaço grande e estúpido de metal que você pod usar para girar cubos e tal.\n\nEntão é, é tipo outra chave inglesa. Eu estou tentando ser original aqui, ok?
